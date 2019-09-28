@@ -11,5 +11,15 @@
     "require": {},
     "require-dev": {
         "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\gadipura\\gress": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "\\gadipura\\gress\\Tests": "tests/"
+        }
     }
 }
